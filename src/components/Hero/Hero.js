@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <div className='flex flex-col-reverse md:flex-row gap-5 text-start hero xl:min-h-screen px-10 md:px-16 xl:px-20 py-20 md:py-36 xl:py-0 justify-center items-center bg-banner-1 bg-cover bg-no-repeat'>
+        <div className='flex flex-col-reverse md:flex-row gap-5 text-start hero xl:min-h-screen px-10 md:px-16 xl:px-20 pt-20 md:py-36 xl:py-0 justify-center items-center bg-banner-1 bg-cover bg-no-repeat'>
             <div>
                 <h1 className='text-3xl md:text-5xl xl:text-8xl'>VIDEO ANNOTATION SERVICES</h1>
                 <p className='text-xl my-5 lx:my-10'>iMerit delivers stellar video annotation services that power AI, machine learning, and data operation strategies.</p>
