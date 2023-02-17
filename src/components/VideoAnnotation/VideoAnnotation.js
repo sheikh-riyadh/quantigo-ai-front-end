@@ -3,7 +3,7 @@ import React from 'react';
 const VideoAnnotation = () => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-10 px-10 md:px-16 xl:px-20 text-start mt-20 md:mt-0'>
-            <div className='xl:col-span-5 skeuomorphic rounded-xl'>
+            <div className='xl:col-span-5 skeuomorphic rounded-3xl'>
                 <img src="assets/img2.jpg" alt="Annotation_server_image" className='p-5 rounded-xl w-full h-full' />
             </div>
             <div className='xl:col-span-7'>
