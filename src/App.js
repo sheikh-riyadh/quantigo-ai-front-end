@@ -7,6 +7,7 @@ import TypesOfAnnotation from './components/TypesOfAnnotation/TypesOfAnnotation'
 import VideoAnnotation from './components/VideoAnnotation/VideoAnnotation';
 import AnnotationServices from './components/AnnotationServices/AnnotationServices';
 import Process from './components/Process/Process';
+import IndustriesService from './components/IndustriesService/IndustriesService';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <TypesOfAnnotation />
       <AnnotationServices />
       <Process />
+      <IndustriesService />
     </div>
   );
 }
