@@ -46,7 +46,7 @@ const services = [
 const IndustriesService = () => {
     SwiperCore?.use([Autoplay])
     return (
-        <div className='px-10 md:px-16 xl:px-20 mt-14 md:mt-24 xl:my-28'>
+        <div className='px-10 md:px-16 xl:px-20 mt-8 md:mt-20 xl:mt-28'>
             <h1 className='text-3xl md:text-4xl font-semibold'>WHAT INDUSTRIES NEED VIDEO <br /> ANNOTATION SERVICES</h1>
             <Swiper
                 spaceBetween={50}

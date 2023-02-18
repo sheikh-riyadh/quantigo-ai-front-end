@@ -48,7 +48,7 @@ const services = [
 const AnnotationServices = () => {
     SwiperCore?.use([Autoplay])
     return (
-        <div className='px-10 md:px-16 xl:px-20 mt-28'>
+        <div className='px-10 md:px-16 xl:px-20 mt-8 md:mt-28'>
             <h1 className='text-3xl md:text-4xl font-semibold'>iMERIT’S VIDEO ANNOTATION SERVICES</h1>
             <Swiper
                 spaceBetween={50}

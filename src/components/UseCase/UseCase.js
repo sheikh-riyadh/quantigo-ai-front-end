@@ -42,8 +42,8 @@ const services = [
 
 const UseCase = () => {
     return (
-        <div className='px-10 md:px-16 xl:px-20'>
-            <h1 className='text-3xl md:text-4xl font-semibold'>VIDEO ANNOTATION USE CASES</h1>
+        <div className='px-10 md:px-16 xl:px-20 xl:my-14'>
+            <h1 className='text-3xl md:text-4xl font-semibold mb-10 lg:mb-10'>VIDEO ANNOTATION USE CASES</h1>
             {
                 services.map((service, index) => {
                     return <div key={service.id}>

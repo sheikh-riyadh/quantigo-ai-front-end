@@ -3,8 +3,8 @@ import React from 'react';
 
 const Process = () => {
     return (
-        <div className='mt-14'>
-            <div className='flex lg:text-start items-center justify-center mb-5 lg:mb-10'>
+        <div className='mt-8 xl:mt-14'>
+            <div className='flex lg:text-start items-center justify-center mb-10 lg:mb-10'>
                 <p className='text-3xl md:text-4xl font-semibold lg:pl-20'>ANNOTATION PR</p>
                 <div className='w-8 h-8 border-8 border-dashed rounded-full animate-spin border-[#4E4534]'></div>
                 <p className='text-3xl md:text-4xl font-semibold'>CESS</p>
