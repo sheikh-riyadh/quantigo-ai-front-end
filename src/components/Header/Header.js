@@ -27,11 +27,11 @@ const Header = () => {
 
     const headerItems = () => {
         return <>
-            <li className='mr2 lg:mr-5'><a href='/home'>product</a></li>
-            <li className='mr2 lg:mr-5'><a href='/all-products'>solutions</a></li>
-            <li className='mr2 lg:mr-5'><a href='/all-products'>service</a></li>
-            <li className='mr2 lg:mr-5'><a href='/all-products'>about us</a></li>
-            <li className='mr2 lg:mr-5'><a href='/all-products'>contact us</a></li>
+            <li className='mr2 lg:mr-5 cursor-pointer'><span >products</span></li>
+            <li className='mr2 lg:mr-5 cursor-pointer'><span >solutions</span></li>
+            <li className='mr2 lg:mr-5 cursor-pointer'><span >servics</span></li>
+            <li className='mr2 lg:mr-5 cursor-pointer'><span >about us</span></li>
+            <li className='mr2 lg:mr-5 cursor-pointer'><span >contact us</span></li>
             {
                 <li onClick={handleNightMode}>
                     {
@@ -60,7 +60,7 @@ const Header = () => {
 
                         </ul>
                     </div>
-                    <a href='/' className="btn btn-ghost normal-case text-xl">iMerit</a>
+                    <span className="btn btn-ghost normal-case text-xl">iMerit</span>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

@@ -1,7 +1,8 @@
 import React from 'react';
 import AnnotationServices from '../../components/AnnotationServices/AnnotationServices';
+import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
-import Hero from '../../components/Hero/Hero';
+import Banner from '../../components/Banner/Banner';
 import IndustriesService from '../../components/IndustriesService/IndustriesService';
 import Process from '../../components/Process/Process';
 import TypesOfAnnotation from '../../components/TypesOfAnnotation/TypesOfAnnotation';
@@ -12,13 +13,13 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <Hero />
+            <Banner />
             <VideoAnnotation />
-            <TypesOfAnnotation />
             <AnnotationServices />
             <Process />
             <IndustriesService />
             <UseCase />
+            <Footer />
         </div>
     );
 };
