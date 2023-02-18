@@ -8,32 +8,38 @@ const services = [
     {
         name: "AUTONOMOUS TECHNOLOGY",
         description: "It is the most commonly used type of video annotation in computer vision.",
-        img: 'assets/annotation.jpg'
+        img: 'assets/annotation.jpg',
+        id: 1
     },
     {
         name: "MEDICAL AI",
         description: "It is the most commonly used type of video annotation in computer vision.",
-        img: 'assets/Medical-AI.jpg'
+        img: 'assets/Medical-AI.jpg',
+        id: 2
     },
     {
         name: "GEOSPATIAL TECHNOLOGY",
         description: "It is the most commonly used type of video annotation in computer vision.",
-        img: 'assets/Geospatial.jpg'
+        img: 'assets/Geospatial.jpg',
+        id: 3
     },
     {
         name: "GOVERNMENT",
         description: "It is the most commonly used type of video annotation in computer vision.",
-        img: 'assets/Government.jpg'
+        img: 'assets/Government.jpg',
+        id: 4
     },
     {
         name: "MANUFACTURING",
         description: "It is the most commonly used type of video annotation in computer vision.",
-        img: 'assets/Manufacturing.jpg'
+        img: 'assets/Manufacturing.jpg',
+        id: 5
     },
     {
         name: "COMMERCE",
         description: "It is the most commonly used type of video annotation in computer vision.",
-        img: 'assets/Commerce.jpg'
+        img: 'assets/Commerce.jpg',
+        id: 6
     },
 
 ]
@@ -69,7 +75,7 @@ const IndustriesService = () => {
             >
                 {
                     services.map(service => {
-                        return <SwiperSlide className='my-8 md:my-14'>
+                        return <SwiperSlide className='my-8 md:my-14' key={service.id}>
                             <div className='skeuomorphic rounded-3xl'>
                                 <div className='p-5'>
                                     <div className='w-24 h-24'>

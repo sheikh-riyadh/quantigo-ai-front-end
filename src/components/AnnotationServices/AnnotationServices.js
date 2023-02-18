@@ -9,32 +9,38 @@ const services = [
     {
         name: "BOUNDING BOXES",
         description: "It is the most commonly used type of video annotation in computer vision.",
-        img: 'assets/img3.jpg'
+        img: 'assets/img3.jpg',
+        id: 1
     },
     {
         name: "POLYGON ANNOTATION",
         description: "It is the most commonly used type of video annotation in computer vision.",
-        img: 'assets/img4.jpg'
+        img: 'assets/img4.jpg',
+        id: 2
     },
     {
         name: "SEMANTIC SEGMENTATION",
         description: "It is the most commonly used type of video annotation in computer vision.",
-        img: 'assets/img5.jpg'
+        img: 'assets/img5.jpg',
+        id: 3
     },
     {
         name: "KEYPOINT ANNOTATION",
         description: "It is the most commonly used type of video annotation in computer vision.",
-        img: 'assets/img6.jpg'
+        img: 'assets/img6.jpg',
+        id: 4
     },
     {
         name: "LANDMARK ANNOTATION",
         description: "It is the most commonly used type of video annotation in computer vision.",
-        img: 'assets/img7.jpg'
+        img: 'assets/img7.jpg',
+        id: 5
     },
     {
         name: "LANDMARK ANNOTATION",
         description: "It is the most commonly used type of video annotation in computer vision.",
-        img: 'assets/img8.jpg'
+        img: 'assets/img8.jpg',
+        id: 6
     },
 
 ]
@@ -71,7 +77,7 @@ const AnnotationServices = () => {
             >
                 {
                     services.map(service => {
-                        return <SwiperSlide className='my-8 md:my-14'>
+                        return <SwiperSlide className='my-8 md:my-14' key={service.id}>
                             <div className='skeuomorphic rounded-3xl'>
                                 <div className='p-5'>
                                     <img src={service.img} alt="service_image" className='rounded-xl' />
