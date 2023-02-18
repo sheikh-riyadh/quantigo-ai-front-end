@@ -1,0 +1,97 @@
+[debug] [2023-02-18T10:13:11.962Z] ----------------------------------------------------------------------
+[debug] [2023-02-18T10:13:11.967Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SHEIKH RIYADH\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-18T10:13:11.969Z] CLI Version:   11.15.0
+[debug] [2023-02-18T10:13:11.970Z] Platform:      win32
+[debug] [2023-02-18T10:13:11.970Z] Node Version:  v16.15.1
+[debug] [2023-02-18T10:13:11.987Z] Time:          Sat Feb 18 2023 16:13:11 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-02-18T10:13:11.988Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-18T10:13:11.995Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-02-18T10:13:12.044Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-18T10:13:12.044Z] > authorizing via signed-in user (sheikhriyad350883@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Programming hero\JOB TASK-2\quantigo-ai
+
+[debug] [2023-02-18T10:13:14.813Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-02-18T10:13:14.813Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-02-18T10:13:45.775Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\SHEIKH RIYADH\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-02-18T10:14:09.366Z] ----------------------------------------------------------------------
+[debug] [2023-02-18T10:14:09.369Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SHEIKH RIYADH\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-18T10:14:09.370Z] CLI Version:   11.15.0
+[debug] [2023-02-18T10:14:09.370Z] Platform:      win32
+[debug] [2023-02-18T10:14:09.371Z] Node Version:  v16.15.1
+[debug] [2023-02-18T10:14:09.372Z] Time:          Sat Feb 18 2023 16:14:09 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-02-18T10:14:09.373Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-18T10:14:09.386Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-18T10:14:09.387Z] > authorizing via signed-in user (sheikhriyad350883@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Programming hero\JOB TASK-2\quantigo-ai
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-02-18T10:14:34.326Z] > refreshing access token with scopes: []
+[debug] [2023-02-18T10:14:34.330Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-02-18T10:14:34.331Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-18T10:14:35.963Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-02-18T10:14:35.964Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-18T10:14:35.979Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-02-18T10:14:37.255Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-02-18T10:14:37.255Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-02-18T10:19:08.657Z] ----------------------------------------------------------------------
+[debug] [2023-02-18T10:19:08.661Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SHEIKH RIYADH\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-18T10:19:08.661Z] CLI Version:   11.15.0
+[debug] [2023-02-18T10:19:08.662Z] Platform:      win32
+[debug] [2023-02-18T10:19:08.662Z] Node Version:  v16.15.1
+[debug] [2023-02-18T10:19:08.673Z] Time:          Sat Feb 18 2023 16:19:08 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-02-18T10:19:08.673Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-18T10:19:08.687Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-18T10:19:08.688Z] > authorizing via signed-in user (sheikhriyad350883@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Programming hero\JOB TASK-2\quantigo-ai
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-02-18T10:19:17.273Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-02-18T10:19:18.120Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-02-18T10:19:18.121Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]

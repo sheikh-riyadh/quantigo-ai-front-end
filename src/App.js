@@ -1,12 +1,16 @@
 import './App.css';
 // Import Swiper styles
 import 'swiper/css';
-import Home from './pages/Home/Home';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './routes/routes';
+
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <RouterProvider router={router}>
+
+      </RouterProvider>
     </div>
   );
 }
