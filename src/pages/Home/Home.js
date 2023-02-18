@@ -1,5 +1,6 @@
 import React from 'react';
 import AnnotationServices from '../../components/AnnotationServices/AnnotationServices';
+import Header from '../../components/Header/Header';
 import Hero from '../../components/Hero/Hero';
 import IndustriesService from '../../components/IndustriesService/IndustriesService';
 import Process from '../../components/Process/Process';
@@ -10,6 +11,7 @@ import VideoAnnotation from '../../components/VideoAnnotation/VideoAnnotation';
 const Home = () => {
     return (
         <div>
+            <Header />
             <Hero />
             <VideoAnnotation />
             <TypesOfAnnotation />
