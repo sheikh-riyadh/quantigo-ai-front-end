@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hero = () => {
+const Banner = () => {
     return (
         <div className='flex flex-col-reverse md:flex-row gap-5 text-start hero xl:min-h-screen px-10 md:px-16 xl:px-20 pt-20 md:py-36 xl:py-0 justify-center items-center bg-banner-1 bg-cover bg-no-repeat'>
             <div>
@@ -15,4 +15,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default Banner;

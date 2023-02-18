@@ -5,7 +5,6 @@ import Header from '../../components/Header/Header';
 import Banner from '../../components/Banner/Banner';
 import IndustriesService from '../../components/IndustriesService/IndustriesService';
 import Process from '../../components/Process/Process';
-import TypesOfAnnotation from '../../components/TypesOfAnnotation/TypesOfAnnotation';
 import UseCase from '../../components/UseCase/UseCase';
 import VideoAnnotation from '../../components/VideoAnnotation/VideoAnnotation';
 
